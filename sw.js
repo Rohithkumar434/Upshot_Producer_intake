@@ -5,7 +5,7 @@ const CACHE = "upshot-intake-v1";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(["./intake.html"]))
+    caches.open(CACHE).then((cache) => cache.addAll(["./", "./index.html"]))
   );
   self.skipWaiting();
 });

@@ -387,14 +387,14 @@
         <div class="field"><label>BPP / Inventory</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="bpp"></div></div>
         <div class="field"><label>Fire Alarm (L / C / None)</label><input type="text" data-k="fire_alarm"></div>
         <div class="field"><label>Burglar Alarm (L / C / None)</label><input type="text" data-k="burglar_alarm"></div>
-        <div class="field"><label>Property Value</label><input type="text" data-k="property_value"></div>
+        <div class="field"><label>*Property Value</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="property_value"></div></div>
         <div class="field"><label>Sprinkler %</label><input type="text" data-k="sprinkler_pct"></div>
         <div class="field"><label>Smoke Detectors (Batt / Hard)</label><input type="text" data-k="smoke_detectors"></div>
         <div class="field"><label>Hours / Days Of Operation</label><input type="text" data-k="hours_operation"></div>
         <div class="field"><label>FT Employees</label><input type="text" data-k="ft_employees"></div>
         <div class="field"><label>PT Employees</label><input type="text" data-k="pt_employees"></div>
-        <div class="field"><label>Annual Payroll</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="payroll"></div></div>
-        <div class="field"><label>Gross Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gross_sales"></div></div>
+        <div class="field"><label>*Annual Payroll</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="payroll"></div></div>
+        <div class="field"><label>*Gross Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gross_sales"></div></div>
         <div class="field"><label>Distance To Hydrant</label><input type="text" data-k="hydrant_dist"></div>
       </div>
     </div>
@@ -424,7 +424,7 @@
     <div class="card-head">Liquor Store</div>
     <div class="card-body">
       <div class="grid">
-        <div class="field"><label>Alcohol Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="liq_alcohol_sales"></div></div>
+        <div class="field"><label>*Alcohol Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="liq_alcohol_sales"></div></div>
         <div class="field"><label>% Alcohol Sales</label><input type="text" data-k="liq_pct_alcohol"></div>
         <div class="field"><label>Hours Of Alcohol Sales</label><input type="text" data-k="liq_hours_alcohol"></div>
         <div class="field"><label>Drive-Thru</label><div class="yn" data-k="liq_drive_thru"><button class="on-y" data-v="Y">Yes</button><button class="on-n" data-v="N">No</button></div></div>
@@ -499,13 +499,12 @@
     <div class="card-head">Gas Station / C-Store</div>
     <div class="card-body">
       <div class="grid">
-        <div class="field"><label>Gasoline Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_gasoline_sales"></div></div>
-        <div class="field"><label>Inside / C-Store Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_cstore_sales"></div></div>
-        <div class="field"><label>Beer & Wine Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_beer_wine_sales"></div></div>
-        <div class="field"><label>Liquor Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_liquor_sales"></div></div>
-        <div class="field"><label>Commercial Cooking Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_cooking_sales"></div></div>
+        <div class="field"><label>*Gasoline Sales(Gallons)</label><input type="text" data-k="gasoline_sales(gallons)"></div>
+        <div class="field"><label>*Inside / C-Store Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_cstore_sales"></div></div>
+        <div class="field"><label>*Beer & Wine Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_beer_wine_sales"></div></div>
+        <div class="field"><label>*Commercial Cooking Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_cooking_sales"></div></div>
         <div class="field"><label>No. Of Pumps</label><input type="text" data-k="gas_pumps"></div>
-        <div class="field"><label>Canopy Value</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_canopy_value"></div></div>
+        <div class="field"><label>*Canopy Value</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="gas_canopy_value"></div></div>
         <div class="field"><label>Car Wash</label><div class="yn" data-k="gas_car_wash"><button class="on-y" data-v="Y">Yes</button><button class="on-n" data-v="N">No</button></div></div>
       </div>
     </div>
@@ -516,12 +515,12 @@
     <div class="card-head">Restaurant</div>
     <div class="card-body">
       <div class="grid">
-        <div class="field"><label>Total Gross Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="res_gross_sales"></div></div>
-        <div class="field"><label>Food Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="res_food_sales"></div></div>
+        <div class="field"><label>*Total Gross Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="res_gross_sales"></div></div>
+        <div class="field"><label>*Food Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="res_food_sales"></div></div>
         <div class="field"><label>Alcohol Sales</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="res_alcohol_sales"></div></div>
         <div class="field"><label>% Alcohol Sales</label><input type="text" data-k="res_pct_alcohol"></div>
-        <div class="field"><label>Seating Capacity</label><input type="text" data-k="res_seating"></div>
-        <div class="field"><label>Cooking Type</label><input type="text" data-k="res_cooking_type"></div>
+        <div class="field"><label>*Seating Capacity</label><input type="text" data-k="res_seating"></div>
+        <div class="field"><label>*Cooking Type</label><input type="text" data-k="res_cooking_type"></div>
         <div class="field"><label>Hood & Ansul System</label><div class="yn" data-k="res_hood_ansul"><button class="on-y" data-v="Y">Yes</button><button class="on-n" data-v="N">No</button></div></div>
         <div class="field"><label>Hood Cleaning Frequency</label><input type="text" data-k="res_hood_freq"></div>
         <div class="field"><label>Liquor Liability Limit</label><div class="dollar-wrap"><span>$</span><input type="text" data-k="res_ll_limit"></div></div>
